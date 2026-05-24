@@ -1,9 +1,9 @@
-# Data Card: {{DATASET_NAME}}
+# Data Card: Credit Card Fraud Detection (TBD)
 
 ## Source
 
-- **Name:** {{DATASET_NAME}}
-- **URL:** {{DATASET_URL}}
+- **Name:** Credit Card Fraud Detection (TBD)
+- **URL:** URL (TBD)
 - **License:** TODO
 - **Coverage:** TODO (date range, geography, population)
 

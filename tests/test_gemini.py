@@ -4,7 +4,7 @@ Tests for src/gemini.py and src/prompts.py
 These tests verify prompt formatting and error handling.
 They do not make live API calls — CI runs without a Gemini key.
 
-TODO: update prompt field assertions for {{PROJECT_NAME}}.
+TODO: update prompt field assertions for Fraud Detection System.
 """
 
 import pytest
@@ -18,7 +18,7 @@ def test_explanation_prompt_is_string():
         "feature_value": [1.0, 2.0],
         "direction": ["increases risk", "decreases risk"],
     })
-    # TODO: update with actual fields for {{PROJECT_NAME}}
+    # TODO: update with actual fields for Fraud Detection System
     prompt = explanation_prompt(record={"amount": 100}, shap_df=shap_df)
     assert isinstance(prompt, str)
     assert len(prompt) > 50

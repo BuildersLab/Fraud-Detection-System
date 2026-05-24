@@ -1,1 +1,1 @@
-"""{{PROJECT_NAME}}: {{PROJECT_DESCRIPTION}}"""
+"""Fraud Detection System: Build an explainable machine learning fraud detection platform for NorthBay Bank that identifies suspicious card-not-present transactions, assists fraud analysts through an interactive review dashboard, and reduces fraud losses while minimizing false alerts."""

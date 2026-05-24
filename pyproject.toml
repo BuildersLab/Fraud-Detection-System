@@ -1,7 +1,7 @@
 [project]
-name = "{{PROJECT_SLUG}}"
+name = "Fraud-Detection-System"
 version = "0.1.0"
-description = "{{PROJECT_DESCRIPTION}}"
+description = "Build an explainable machine learning fraud detection platform for NorthBay Bank that identifies suspicious card-not-present transactions, assists fraud analysts through an interactive review dashboard, and reduces fraud losses while minimizing false alerts."
 requires-python = ">=3.11"
 dependencies = [
     "pandas>=2.0",

@@ -9,8 +9,8 @@ This is the official BuildersLab project template. Every new project starts here
 Run the init script once after cloning. It will ask you a series of questions and replace all placeholder text across every file automatically.
 
 ```bash
-git clone https://github.com/builderslab/builderslab-template.git {{PROJECT_SLUG}}
-cd {{PROJECT_SLUG}}
+git clone https://github.com/builderslab/builderslab-template.git Fraud-Detection-System
+cd Fraud-Detection-System
 python init_project.py
 ```
 
@@ -36,7 +36,7 @@ rm init_project.py
 rm SETUP.md
 git add -A
 git commit -m "initialise project from builderslab template"
-git remote set-url origin https://github.com/builderslab/{{PROJECT_SLUG}}.git
+git remote set-url origin https://github.com/builderslab/Fraud-Detection-System.git
 git push origin main
 ```
 
@@ -48,18 +48,18 @@ If you prefer to customise manually, find and replace the following placeholders
 
 | Placeholder | Replace with | Example |
 |---|---|---|
-| `{{PROJECT_NAME}}` | Full project name | `CardGuard` |
-| `{{PROJECT_SLUG}}` | Lowercase repo name | `cardguard` |
-| `{{PROJECT_DESCRIPTION}}` | One-sentence description | `Real-time credit card fraud detection for NorthBay Bank` |
-| `{{COMPANY_NAME}}` | Fictional company name | `NorthBay Bank` |
-| `{{PERSONA}}` | Primary user persona | `Fraud analyst` |
-| `{{DATASET_NAME}}` | Dataset name | `Sparkov Credit Card Transactions` |
-| `{{DATASET_URL}}` | Dataset URL | `https://kaggle.com/datasets/...` |
-| `{{DURATION}}` | Project duration | `12 weeks` |
-| `{{PRIMARY_METRIC}}` | Primary ML metric | `PR-AUC` |
-| `{{TEAM_LEAD}}` | Project lead name or role | `Project Lead` |
-| `{{TEAM_DS}}` | Data Science name or role | `Data Science` |
-| `{{TEAM_MLE}}` | ML Engineer name or role | `ML Engineer` |
+| `Fraud Detection System` | Full project name | `CardGuard` |
+| `Fraud-Detection-System` | Lowercase repo name | `cardguard` |
+| `Build an explainable machine learning fraud detection platform for NorthBay Bank that identifies suspicious card-not-present transactions, assists fraud analysts through an interactive review dashboard, and reduces fraud losses while minimizing false alerts.` | One-sentence description | `Real-time credit card fraud detection for NorthBay Bank` |
+| `NorthBay Bank (TBD)` | Fictional company name | `NorthBay Bank` |
+| `Fraud Analyst` | Primary user persona | `Fraud analyst` |
+| `Credit Card Fraud Detection (TBD)` | Dataset name | `Sparkov Credit Card Transactions` |
+| `URL (TBD)` | Dataset URL | `https://kaggle.com/datasets/...` |
+| `16 weeks` | Project duration | `12 weeks` |
+| `PR-AUC` | Primary ML metric | `PR-AUC` |
+| `Nafisat Ibrahim` | Project lead name or role | `Project Lead` |
+| `Laël Keïla Nacro, Emmanuel N'guetta` | Data Science name or role | `Data Science` |
+| `Anna Zhelizniak, Sai Kotthireddy` | ML Engineer name or role | `ML Engineer` |
 
 ---
 

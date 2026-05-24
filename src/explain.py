@@ -1,5 +1,5 @@
 """
-{{PROJECT_NAME}} SHAP explainability helpers.
+Fraud Detection System SHAP explainability helpers.
 
 Used by notebooks (analysis) and the app (per-prediction explanations).
 Keeping SHAP logic here ensures training and inference use identical code.

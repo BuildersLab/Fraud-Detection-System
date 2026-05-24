@@ -3,7 +3,7 @@ Tests for src/features.py
 
 
 TODO: update the fixture and assertions to match the actual features
-built for {{PROJECT_NAME}}.
+built for Fraud Detection System.
 """
 
 import pandas as pd
@@ -15,7 +15,7 @@ from src.features import build_all_features
 @pytest.fixture
 def sample_df():
     """
-    TODO: update to match the cleaned/encoded output of data_pipeline for {{PROJECT_NAME}}.
+    TODO: update to match the cleaned/encoded output of data_pipeline for Fraud Detection System.
     """
     n = 50
     return pd.DataFrame({

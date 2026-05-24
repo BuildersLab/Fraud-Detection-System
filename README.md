@@ -1,14 +1,14 @@
-# {{PROJECT_NAME}}
+# Fraud Detection System
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Build](https://img.shields.io/badge/Build-Passing-brightgreen)
-![Dataset](https://img.shields.io/badge/Dataset-{{DATASET_NAME}}-orange)
+![Dataset](https://img.shields.io/badge/Dataset-Credit Card Fraud Detection (TBD)-orange)
 ![LLM](https://img.shields.io/badge/LLM-Gemini%20API-purple)
 
-{{PROJECT_DESCRIPTION}}
+Build an explainable machine learning fraud detection platform for NorthBay Bank that identifies suspicious card-not-present transactions, assists fraud analysts through an interactive review dashboard, and reduces fraud losses while minimizing false alerts.
 
-Built by the BuildersLab team for {{COMPANY_NAME}}.
+Built by the BuildersLab team for NorthBay Bank (TBD).
 
 ---
 
@@ -22,7 +22,7 @@ Built by the BuildersLab team for {{COMPANY_NAME}}.
 
 ## Live demo
 
-[{{PROJECT_SLUG}}.replit.app](#) — public, no login required
+[Fraud-Detection-System.replit.app](#) — public, no login required
 
 ---
 
@@ -30,21 +30,21 @@ Built by the BuildersLab team for {{COMPANY_NAME}}.
 
 | Name | Role |
 |---|---|
-| {{TEAM_LEAD}} | Project Lead: delivery, stakeholder framing, demo |
-| {{TEAM_DS}} | Data Science: EDA, feature engineering, modeling, explainability, documentation |
-| {{TEAM_MLE}} | ML Engineer: pipeline, API integration, Replit app |
+| Nafisat Ibrahim | Project Lead: delivery, stakeholder framing, demo |
+| Laël Keïla Nacro, Emmanuel N'guetta | Data Science: EDA, feature engineering, modeling, explainability, documentation |
+| Anna Zhelizniak, Sai Kotthireddy | ML Engineer: pipeline, API integration, Replit app |
 
 ---
 
 ## Quickstart
 
 ```bash
-git clone https://github.com/builderslab/{{PROJECT_SLUG}}.git
-cd {{PROJECT_SLUG}}
+git clone https://github.com/builderslab/Fraud-Detection-System.git
+cd Fraud-Detection-System
 make setup
 ```
 
-Download the dataset from {{DATASET_URL}} and place the files in `data/raw/`. See [docs/setup_guide.md](docs/setup_guide.md) for full instructions.
+Download the dataset from URL (TBD) and place the files in `data/raw/`. See [docs/setup_guide.md](docs/setup_guide.md) for full instructions.
 
 ```bash
 make data      # build features
@@ -58,7 +58,7 @@ make app       # launch dashboard
 ## Repo structure
 
 ```
-{{PROJECT_SLUG}}/
+Fraud-Detection-System/
 ├── data/
 │   ├── raw/                  # original files, never edited, gitignored
 │   ├── processed/            # pipeline outputs, gitignored
@@ -100,7 +100,7 @@ make app       # launch dashboard
 
 | Metric | Value |
 |---|---|
-| {{PRIMARY_METRIC}} | TBD |
+| PR-AUC | TBD |
 | Recall at threshold | TBD |
 | Business impact | TBD |
 | False positive rate | TBD |
