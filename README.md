@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Build](https://img.shields.io/badge/Build-Passing-brightgreen)
-![Dataset](https://img.shields.io/badge/Dataset-Credit Card Fraud Detection (TBD)-orange)
+![Dataset](https://img.shields.io/badge/Dataset-Credit-Card-Fraud-Detection-%28TBD%29-orange)
 ![LLM](https://img.shields.io/badge/LLM-Gemini%20API-purple)
 
 Build an explainable machine learning fraud detection platform for NorthBay Bank that identifies suspicious card-not-present transactions, assists fraud analysts through an interactive review dashboard, and reduces fraud losses while minimizing false alerts.
@@ -22,7 +22,7 @@ Built by the BuildersLab team for NorthBay Bank (TBD).
 
 ## Live demo
 
-[Fraud-Detection-System.replit.app](#) — public, no login required
+[Fraud-Detection-System.replit.app](#) - public, no login required
 
 ---
 
@@ -114,4 +114,4 @@ Fraud-Detection-System/
 - [Setup Guide](docs/setup_guide.md)
 - [Workflow and PR conventions](docs/workflow.md)
 - [Decision log](docs/decisions.md)
-- [Notion workspace](#)
+- [Notion workspace](https://www.notion.so/builderslab/Fraud-Detection-System-360663a5d5d1801891a3fc873503cc9b)

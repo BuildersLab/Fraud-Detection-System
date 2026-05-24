@@ -40,7 +40,7 @@ def render():
     with col_left:
         st.subheader("Record details")
         # TODO: replace with actual fields for Fraud Detection System
-        st.json({k: v for k, v in rec.items() if k not in ["pred_prob", "pred_flag", "risk_tier"]})
+        st.json({k: v for k, v in rec.items() if k not in ["pred_prob", "pred_flag", "score_tier"]})
 
     with col_right:
         st.subheader("Why this was flagged")
